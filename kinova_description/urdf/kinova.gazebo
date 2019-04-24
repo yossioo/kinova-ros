@@ -12,6 +12,9 @@
         <legacyModeNS>true</legacyModeNS>
       </plugin>
     </gazebo>
+    <gazebo reference="root">
+      <static>true</static>
+    </gazebo>
 
 </xacro:macro>
 
